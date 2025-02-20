@@ -1,0 +1,158 @@
+
+
+<!-- Internal CSS for styling My Website -->
+
+<style>
+   /* The Whole Body styling */
+ body {
+   font-family: Arial, sans-serif;
+   background-color: white;
+   background-image: url('assets/ME.jpg'); /* Background image */
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: white;
+   position: relative;
+   padding: 5;
+ }
+
+/* Header styling */
+header {
+  background-image: url('assets/rich.jpg'); /* Header background image */
+  background-color: #8c0505; /* Fallback background color */
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+/* Profile picture styling */
+.profile-picture {
+  width: 100px; /* Adjust the size as needed */
+  height: 100px; /* Adjust the size as needed */
+  border-radius: 50%; /* Makes the image circular */
+  overflow: hidden; /* Ensures the image stays within the circular boundary */
+  margin: 0 auto 10px; /* Centers the image and adds some space below */
+}
+
+/* Profile picture image styling */
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire area */
+}
+
+/* Homepage picture styling */
+.homepage-picture img {
+  display: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 8px;
+  background-color: darkolivegreen;
+  width: 500px; /* Corrected typo from 'with' to 'width' */
+  height: 700px;
+  image-align: right;
+  text-align: center;
+}
+
+/* Paragraph styling */
+p {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  font-family: Roboto, sans-serif;
+}
+
+/* Header image styling */
+.header-image {
+  width: 100%;
+  height: 200px; /* Adjust height as needed */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Navigation list styling */
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Navigation list item styling */
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+/* Navigation link styling */
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Section styling */
+section {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Hidden class for toggling visibility */
+.hidden {
+  display: none;
+}
+
+/* About section styling */
+#about {
+  display: block; /* Ensure About is always visible on homepage */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Adjust to fit screen */
+}
+
+/* Project section styling */
+.project {
+  background-color: skyblue;
+  color: white;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Form input, textarea, and button styling */
+form input, form textarea, form button {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+/* Button styling */
+button {
+  background-color: #8c0505;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer styling */
+footer {
+  background-color: #8c0505;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Media query for responsive design on smaller screens */
+@media (max-width: 768px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  form input, form textarea, form button {
+    width: 90%;
+  }
+
+</style>
